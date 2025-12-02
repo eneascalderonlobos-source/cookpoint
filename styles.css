@@ -1,1 +1,48 @@
-body { font-family: sans-serif; }
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CookPoint</title>
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="logo">CookPoint</h1>
+        <nav class="nav">
+            <a href="#" class="nav-item">Inicio</a>
+            <a href="#" class="nav-item">Restaurantes</a>
+            <a href="#" class="nav-item">Repartidores</a>
+            <a href="#" class="nav-item">Contacto</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Gestioná tu restaurante o delivery con facilidad</h2>
+        <p>CookPoint te ayuda a organizar pedidos, repartidores y clientes en un solo lugar.</p>
+        <a href="#" class="btn-primary">Empezar ahora</a>
+    </section>
+
+    <section class="features">
+        <div class="feature-card">
+            <h3>Para Restaurantes</h3>
+            <p>Controlá pedidos, horarios y tu menú desde un panel intuitivo.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Para Repartidores</h3>
+            <p>Recibí pedidos, rutas y horarios directamente en tu móvil.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Para Clientes</h3>
+            <p>Hacé pedidos rápidos y seguí tu entrega en tiempo real.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        © 2025 CookPoint — Todos los derechos reservados
+    </footer>
+</body>
+</html>
