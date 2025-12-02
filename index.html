@@ -1,1 +1,35 @@
-<!DOCTYPE html><html><head><link rel='stylesheet' href='styles.css'></head><body><h1>CookPoint</h1></body></html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Naim’s Burger – Calculadora de Precios</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Naim’s Burger</h1>
+    <h2>Calculadora de Costos</h2>
+
+    <div class="card">
+      <label>Precio del kilo de carne (ARS)</label>
+      <input type="number" id="precioCarne" placeholder="Ej: 8500">
+
+      <label>Precio del kilo de grasa (ARS)</label>
+      <input type="number" id="precioGrasa" placeholder="Ej: 5000">
+
+      <label>Porcentaje de grasa en el blend (%)</label>
+      <input type="number" id="porcentajeGrasa" placeholder="Ej: 20">
+
+      <label>Peso del medallón (en gramos)</label>
+      <input type="number" id="pesoMedallon" placeholder="Ej: 110">
+
+      <button onclick="calcular()">Calcular</button>
+
+      <div id="resultado" class="resultado"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
